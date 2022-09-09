@@ -11,9 +11,9 @@ interface ErrorResponse {
 
 export default class Store {
   isLoading = false;
-  isAuth = false;
+  isAuth: string | boolean = "";
   errorResponse: ErrorResponse | any = null;
-  isNeedRegister = false;
+  isNeedRegister: string | boolean = "";
 
   constructor() {
     makeAutoObservable(this);

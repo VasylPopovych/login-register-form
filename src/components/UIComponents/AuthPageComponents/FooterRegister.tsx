@@ -1,4 +1,5 @@
 import { Container, Link, Typography } from "@mui/material";
+import { observer } from "mobx-react-lite";
 import React, { useContext } from "react";
 import { Context } from "../../..";
 
@@ -6,6 +7,7 @@ const FooterRegister: React.FC = () => {
   const { store } = useContext(Context);
   const handleChange = (): void => {
     store.setIsNeedRegister(false);
+    sessionStorage.removeItem("isNeedRegister");
     store.errorResponse = null;
   };
 
@@ -31,4 +33,4 @@ const FooterRegister: React.FC = () => {
   );
 };
 
-export default FooterRegister;
+export default observer(FooterRegister);

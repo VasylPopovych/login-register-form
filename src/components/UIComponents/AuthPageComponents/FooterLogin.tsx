@@ -1,4 +1,5 @@
 import { Container, Link, Typography } from "@mui/material";
+import { observer } from "mobx-react-lite";
 import React, { useContext } from "react";
 import { Context } from "../../..";
 
@@ -7,6 +8,7 @@ const LoginFooter: React.FC = () => {
 
   const handleChange = (): void => {
     store.setIsNeedRegister(true);
+    sessionStorage.setItem("isNeedRegister", "true");
     store.errorResponse = null;
   };
 
@@ -32,4 +34,4 @@ const LoginFooter: React.FC = () => {
   );
 };
 
-export default LoginFooter;
+export default observer(LoginFooter);
