@@ -1,7 +1,18 @@
-## 🚀 Завдання
+## 🚀 Login\Register Form
 
-## 📎 Посилання
+#### Login\Register form with Home page and Logout. Working with Swagger API
 
-**Макет**: [Figma](https://www.figma.com/file/hbthFdqeHcPtKLXQIjkeqX/Test-Incode-Finance-2022)
+## Stack:
+- React
+- TypeScript
+- MUI
+- MobX
+- React router
+- Axios
+- ESlint
 
-**API документація**: [Swagger](https://incode-backend-dev.herokuapp.com/api/)
+## 📎 Resources
+
+**Model**: [Figma](https://www.figma.com/file/hbthFdqeHcPtKLXQIjkeqX/Test-Incode-Finance-2022)
+
+**API**: [Swagger](https://incode-backend-dev.herokuapp.com/api/)
