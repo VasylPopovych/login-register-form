@@ -5,7 +5,7 @@
 ## App delpoyed [HERE](https://popovych-login-register-form.netlify.app)
 
 ## Stack:
-- React
+- React Create App
 - TypeScript
 - MUI
 - MobX
