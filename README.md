@@ -1,7 +1,7 @@
 ## 🚀 Login\Register Form
 
 #### Login\Register form with Home page and Logout. Working with Swagger API. 
-##### An application where the user can register his account using the Sign Up form and later enter it through the Sign In form. After successful login, the user is automatically redirected to the Home page, where he can use the Logout button to exit his account.
+##### Application where the user can register his account using the Sign Up form and later enter it through the Sign In form. After successful login, the user is automatically redirected to the Home page, where he can use the Logout button to exit his account.
 
 
 ## App delpoyed [HERE](https://popovych-login-register-form.netlify.app)
